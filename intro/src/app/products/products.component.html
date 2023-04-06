@@ -1,0 +1,33 @@
+
+<div class="mb-5">
+    <input  
+    class="form-control" 
+    id="productName" 
+    placeholder="Ürün Ara "
+    [(ngModel)]="filtertext"
+    />
+    <div
+    class="form-text text-light"*ngIf="filtertext"
+     ><strong>{{filtertext}}</strong> ile eşleşenler.</div>
+  </div>
+
+<div class="row">
+    <ng-template #noProduct>
+        <div class="alert alert-secondary" role="alert">
+            Bu Kategoride Ürün Bulunmamaktadır!
+          </div>
+    </ng-template>
+    <div *ngFor="let product of products | productFilter:filtertext" class="col-3">
+        <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+         
+            <img src={{product.imageUrl}} class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">{{product.description}}</h5>
+                <p class="card-text text-center">{{product.price | currency:"TRY":"₺ ":"1.2"}}</p>
+                <div class="text-center d-grid gap-2">
+                <button (click)="addToCart(product)" type="button" class="btn btn-dark"> Satın Al</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

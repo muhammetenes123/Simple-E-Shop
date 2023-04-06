@@ -1,0 +1,9 @@
+
+<div class="nav-scroller mt-3 py-1">
+<nav class="nav d-flex justify-content-between">
+    <a class = "list-group-item text-light  " href="#"> Tüm ürünler</a>
+<a class = "list-group-item text-light  "*ngFor="let category of categories"routerLink="products/category/{{category.id}}">
+    {{category.name}}
+</a>
+</nav>
+</div>

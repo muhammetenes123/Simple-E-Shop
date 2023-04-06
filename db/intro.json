@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone",
+      "price": 41000,
+      "categoryId": 1,
+      "description": "Iphone 14 Pro",
+      "imageUrl": "assets/img/iphone.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Samsung",
+      "price": 37000,
+      "categoryId": 1,
+      "description": "Samsung S23 Ultra",
+      "imageUrl": "assets/img/samsung.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi",
+      "price": 39000,
+      "categoryId": 1,
+      "description": "Xiaomi 13 Pro",
+      "imageUrl": "assets/img/xiaomi.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Huawei",
+      "price": 34000,
+      "categoryId": 1,
+      "description": "Huawei Mate 50 Pro",
+      "imageUrl": "assets/img/huawei.png"
+    },
+    {
+      "id": 5,
+      "name": "Casper",
+      "price": 17500,
+      "categoryId": 2,
+      "description": "Casper Excalibur",
+      "imageUrl": "assets/img/casper.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Monster",
+      "price": 18000,
+      "categoryId": 2,
+      "description": "Monster Abra A5 ",
+      "imageUrl": "assets/img/monster.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Apple Watch",
+      "price": 9300,
+      "categoryId": 3,
+      "description": "Apple Watch 8",
+      "imageUrl": "assets/img/watch1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Samsung Watch",
+      "price": 8000,
+      "categoryId": 3,
+      "description": "Galaxy Watch 5 Pro",
+      "imageUrl": "assets/img/watch2.png"
+    },
+    {
+      "name": "Acer",
+      "description": "Acer Nitro 5 ",
+      "imageUrl": "assets/img/acer.jpg",
+      "price": "16500",
+      "categoryId": 2,
+      "id": 9
+    },
+    {
+      "name": "HUAWEI",
+      "description": "HUAWEI Watch GT3 Pro",
+      "imageUrl": "assets/img/watch3.jpg",
+      "price": "6000",
+      "categoryId": 3,
+      "id": 10
+    },
+    {
+      "name": "HP",
+      "description": "HP Victus",
+      "price": "30999",
+      "categoryId": 2,
+      "imageUrl": "assets/img/hp.jpg",
+      "id": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Telefon"
+    },
+    {
+      "id": 2,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 3,
+      "name": "Saat"
+    }
+  ]
+}
